@@ -1,3 +1,0 @@
-I'm branch 3
-
-this file belongs to branch3
