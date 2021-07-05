@@ -1,0 +1,372 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 42px;
+    color: rgb(44, 43, 43);
+    font-weight: bold;
+}
+h3{
+    font-size: 26px;
+    color: rgb(80, 70, 70);
+    font-weight: 500;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 15px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+/* Navbar */
+
+nav{
+    background-color: #eaeaea;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.brand-logo{
+    width: 170px;
+}
+.brand-logo img{
+    width: 100%;
+    height: auto;
+}
+.nav-items{
+    margin-left: auto;
+    display: inline-block;
+}
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-items li{
+    margin-left: 30px;
+    padding: 10px 15 px;
+}
+
+.active{
+    border-bottom: 5px solid #0069fe;
+}
+
+.nav-items li:hover{
+    border-bottom: 5px solid #0069fe;
+}
+.btn{
+    background-color:#0069fe ;
+    border-radius: 2px;
+    padding: 1rem;
+    display: inline-block;
+    margin-top: -16px;
+}
+}
+.btn a{
+    color: white;
+}
+/* main content */
+main{
+    padding: 50px 0;
+}
+/* home */
+hr.hometop{
+    margin: 30px 0;
+}
+.blog-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin-top: 34px;
+}
+.blog-cards a{
+    text-decoration: none;
+}
+.blog-cards-item{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(206, 202, 202);
+}
+.blog-image{
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+}
+.blog-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card-tag-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-tag{
+    padding: 10px;
+    background-color: rgb(140, 0, 255);
+    flood-color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -18px;
+}
+.card-contents{
+    padding: 0 35px 50px 25px;
+}
+.small{
+    font-size: 14px;
+}
+.small i{
+   font-size: 8px;
+}
+.card-title{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.card-text{
+    font-size: 16px;
+}
+.all-post{
+    margin-top: 25px;
+}
+.under{
+    display: flex;
+    padding: 1.5rem 3rem;
+    text-align: end;
+
+}
+
+.under > p{
+    display: inline-block;
+    width: 50%;
+}
+
+.next{
+    width: 50%;
+}
+
+.next a{
+    text-decoration: none;
+}
+
+/* footer */
+
+footer{
+    padding: 15px 0;
+}
+hr.footer{
+    border-top: 2px solid #eaeaea;
+    margin: 0;
+    
+  }
+.icons span{
+    margin-right: 15px ;
+
+}
+.icons i{
+    font-size: 50px;
+    color: #0069fe;
+}
+
+
+/*  Blog Page*/
+.blog-details h1{
+    font-size: 36px;
+    margin: 16px 0;
+}
+.blog-details h2{
+    font-size: 28px;
+    margin: 14px 0;
+}
+.blog-details h3{
+    font-size: 24px;
+    margin: 12px 0;
+}
+.blog-details p{
+    font-size: 16px;
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.blog-details .title{
+    font-size: 42px;
+    margin: 30px 0;
+}
+.blog-details a{
+    text-decoration: none;
+    color: blue;
+    text-transform: capitalize;
+}
+
+/* Contact Page */
+.form-container{
+    margin-top: 50px;
+}
+
+.forms{
+    width: 100%;
+    margin-top: 25px;
+}
+..forms label{
+    display: block;
+    font-size: 18px;
+    font-weight: 550;
+}
+.form-input-field{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.form-text-area{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    font-size: 16px;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form-submit-button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #006f93;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 550;
+    cursor: pointer;
+}
+/* About */
+.about-page h1{
+    font-size: 36px;
+    margin: 16px 0;
+}
+.about-page h2{
+    font-size: 24px;
+    margin: 14px 0;
+    margin-top: 45px;
+    font-weight: 500;
+}
+.about-page h3{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 550;
+}
+.about-page p{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-weight:100;
+}
+.about-links a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: rgb(0, 40, 148);
+}
+.about-page a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(0, 40, 148);
+    line-height: 1.8;
+}
+
+.box-model{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(143, 139, 139);
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-left: 8px;
+    border-radius: 3px;
+}
+.box-model p{
+    font-size: 15px;
+    margin-top: -1px;
+}
+table {
+    font-family: arial, Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin-top: 30px;
+    font-size: 18px;
+}
+  
+td, th {
+    border: 1px solid #131111;
+    text-align: center;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+.td1{
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+    background: #020101;
+    color: rgb(246, 246, 246);
+}
+
+.tr1{
+    background: #ecd9d9;
+}
+blockquote{
+    border-left: 4px solid rgb(221, 221, 221);
+    padding: 0px 18px;
+}
+blockquote p{
+    color: rgb(143, 143, 143);
+}
+.last{
+    margin-top: 25px;
+}
+.last p{
+    margin-top: 25px;
+}
+.last hr{
+    margin-top: 15px;
+    height: 0.25em;
+    background-color: rgb(190, 190, 190);
+    border: 0px;
+}
