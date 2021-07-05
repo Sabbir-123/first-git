@@ -23,7 +23,7 @@
          </div>
       <div class="nav-items">
          <ul>
-            <li class="active">
+            <li>
                <a href="index.html">Home</a>
             </li>
             <li>
@@ -32,11 +32,11 @@
             <li>
                <a href="blog.html">Blog</a>
             </li>
-            <li>
+            <li class="active">
                <a href="contact.html">Contact</a>
             </li>
             <li class="btn">
-               <a href="contact.html">Contact</a>
+               <a href="index.html">Home</a>
             </li>
          </ul>
          
@@ -45,59 +45,34 @@
    </nav>
 <!-- Main Contet area -->
 <main class="container">
-   <h1>Gatsby multi-language starter</h1>
+   <h1>Contact Us</h1>
    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti in est maiores suscipit aperiam eius, ut, commodi molestias nisi dolorem assumenda neque id non illo, quibusdam rem iusto voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias nobis aspernatur itaque quisquam .
-   </p>
-   <hr class="hometop">
-   <p class="lastest-post">latest post</p>
-   <div class="blog-cards">
-      <a href="blog-item.html">
-      <div class="blog-cards-item">
-         <div class="blog-image">
-            <img src="https://picsum.photos/550" alt="blog-image">
-         </div>
-         <div class="card-tag-container">
-            <div class="card-tag">
-               Gatsby
-            </div>
-         </div>
-         <div class="card-contents">
-            <p class="small">
-               15.10.2019 
-               <span><i class="fas fa-circle"></i></span>
-               1 min to read
-            </p>
-            <h3 class="card-title">Adding Menu Items</h3>
-            <p class="card-text"> Add menu items in graphql to create a dynamic menu.</p>
-         </div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti in est maiores suscipit aperiam eius, ut, commodi molestias nisi dolorem assumenda neque id non illo, quibusdam rem iusto voluptas.
+ </p>
+ <div class="form-container">
+    <form>
+       <div class="forms">
+          <label for="name">Name</label>
+          <input class="form-input-field" type="text" placeholder="Sabbir Ahmed" id="name">
+       </div>
+       <div class="forms">
+         <label for="email">Email</label>
+         <input class="form-input-field" type="email" placeholder="sabbir@example.com" id="email">
       </div>
-      </a>
-      <a href="blog-item.html">
-         <div class="blog-cards-item">
-            <div class="blog-image">
-               <img src="https://picsum.photos/550" alt="blog-image">
-            </div>
-            <div class="card-tag-container">
-               <div class="card-tag">
-                  Gatsby
-               </div>
-            </div>
-            <div class="card-contents">
-               <p class="small">
-                  15.10.2019 
-                  <span><i class="fas fa-circle"></i></span>
-                  1 min to read
-               </p>
-               <h3 class="card-title">Adding Menu Items</h3>
-               <p class="card-text"> Add menu items in graphql to create a dynamic menu.</p>
-            </div>
-         </div>
-         </a>
-      <p class="all-post">
-         <a href="blog.html">All Post</a>
-      </p>
-   </div>
+      <div class="forms">
+         <label for="subject">Subject</label>
+         <input class="form-input-field" type="text" placeholder="Write your subject" id="subject">
+      </div>
+      <div class="forms">
+         <label for="message">Message</label>
+         <textarea class="form-text-area" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <div class="submit-button">
+         <input class="form-submit-button" type="submit" value="submit">
+      </div>
+    </form>
+ </div>
+
 </main>
    <!-- Main Footer  -->
    <hr class="footer">
